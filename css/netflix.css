@@ -1,0 +1,235 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #00081d;
+  color: white;
+}
+.nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo {
+  width: 150px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.nav .butto {
+  border: 0;
+  outline: 0;
+  height: 40px;
+  background: #db0001;
+  color: white;
+  padding: 7px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.nav .langauage-btn {
+  border: 0;
+  outline: 0;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 7px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.langauage-btn img {
+  width: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.header {
+  width: 94%;
+  height: 80vh;
+  margin: auto;
+  background-image: linear-gradient(275deg, rgba(0, 0, 0, 0.3), #43000c),
+    url(./../assets/header-image.png);
+  filter: grayscale(20%), opacity(90%), blur(90%);
+  background-size: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#space {
+  padding-right: 40px;
+}
+.header-content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  text-align: left;
+}
+.header-content h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  max-width: 650px;
+}
+.header-content h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.email-signup {
+  margin-top: 30px;
+}
+#email {
+  background-color: rgba(0, 0, 0, 0.408);
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: 0;
+  height: 50px;
+  width: 300px;
+  color: white;
+  padding-left: 20px;
+}
+#but {
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.text-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.features h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.faq {
+  padding: 10px 12%;
+  text-align: left;
+  font-size: 18px;
+}
+.faq h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.accordion {
+  margin: 10px auto;
+  width: 100%;
+  max-width: 1300px;
+}
+.accordion li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordion li label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  background: #132144;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+.plus {
+  display: inline-block;
+  width: 20px;
+}
+.faq-plus {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 400;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion .content {
+  background: #132144;
+  text-align: left;
+  padding: 0 20px;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion .content p {
+  padding: 20px;
+}
+.faq small {
+  font-size: 23px;
+}
+.footer {
+  padding: 50px 12% 10px;
+  color: #777;
+}
+.footer h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.footer .col {
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+.footer .col a {
+  display: block;
+  color: #939292;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer .langauage-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(70, 67, 67);
+}
+.copyright {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
